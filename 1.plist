@@ -1,31 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>items</key>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>http://10.10.10.50:8080/1.pad</string>
-                </dict>
-            </array>
-            <key>metadata</key>
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE plist PUBLIC '-//Apple//DTD PLIST 1.0//EN'
+        'http://www.apple.com/DTDs/PropertyList-1.0.dtd'>
+<plist version='1.0'>
+    <dict>
+        <key>items</key>
+        <array>
             <dict>
-                <key>bundle-identifier</key>
-                <string>bundle id</string>
-                <key>bundle-version</key>
-                <string>版本号</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>应用名称</string>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>
+                            http://10.10.10.50:8080/1.ipa
+                        </string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>display-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+                        <string>http://www.apicloud.com/icon1/57/4e/574e34908d65a1fd41fc5701335b3b48.57x57.png</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>full-size-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+                        <string>http://www.apicloud.com/icon1/57/4e/574e34908d65a1fd41fc5701335b3b48.57x57.png</string>
+                    </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                    <key>bundle-identifier</key>
+                    <string>com.cam1</string>
+                    <key>bundle-version</key>
+                    <string>0.0.1</string>
+                    <key>kind</key>
+                    <string>software</string>
+                    <key>subtitle</key>
+                    <string>测试</string>
+                    <key>title</key>
+                    <string>测试</string>
+                </dict>
             </dict>
-        </dict>
-    </array>
-</dict>
+        </array>
+    </dict>
 </plist>
